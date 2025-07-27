@@ -16,3 +16,4 @@
         public virtual Categoria Categoria { get; set; } //Propriedade de navegação identifiando que tem um relacionamento com Categoria
     }
 }
+// Teste
