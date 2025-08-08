@@ -14,7 +14,7 @@ namespace Lanches.Models
         public string CategoriaNome { get; set; }
         [StringLength(200, ErrorMessage = "O Tamanho maxímo é 100 caracteres")]
         [Required(ErrorMessage = "Informe o nome da categoria")]
-        [Display(Name = "Nome")]
+        [Display(Name = "Descrição")]
         public string Descricao { get; set; }
 
         public List<Lanche> Lanche { get; set; }
