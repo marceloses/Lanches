@@ -8,10 +8,12 @@ namespace Lanches.Models
     {
         [Key]
         public int LancheId { get; set; }// Propriedade
+
         [Required(ErrorMessage = "O nome do lanche deve ser informado")]
         [Display(Name = "Nome do Lanche")]
         [StringLength(80, MinimumLength = 10, ErrorMessage ="O {0} deve ser minimo{1} e no maximo")]
         public string Nome { get; set; }
+
         [Required(ErrorMessage = "O nome do lanche deve ser informado")]
         [Display(Name = "Nome do Lanche")]
         [MinLength(20, ErrorMessage ="Descrição deve ter no minimo {1} caracteres")]
