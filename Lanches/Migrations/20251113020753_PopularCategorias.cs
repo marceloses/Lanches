@@ -11,6 +11,7 @@ namespace Lanches.Migrations
             migrationBuilder.Sql("INSERT INTO Categorias (CategoriaNome, Descricao) VALUES ('Normal', 'Lanche feito com ingredientes normais')");
             migrationBuilder.Sql("INSERT INTO Categorias (CategoriaNome, Descricao) VALUES ('Natural', 'Lanche feito com ingredientes naturais')");
             migrationBuilder.Sql("INSERT INTO Categorias (CategoriaNome, Descricao) VALUES ('Composto', 'Lanche feito com ingredientes naturais')");
+            migrationBuilder.Sql("INSERT INTO Categorias (CategoriaNome, Descricao) VALUES ('Composto Duplo', 'Lanche feito com ingredientes naturais')");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
