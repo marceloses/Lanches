@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\images\" />
+    <Content Remove="wwwroot\images\carousel15.jpg" />
   </ItemGroup>
 
   <ItemGroup>
